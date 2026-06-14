@@ -15,126 +15,128 @@
 
     <nav class="flex justify-around items-center py-4 border-b border-b-gray-300 text-blue-950">
         <div class="flex">
-            <i class="text-[#29E6AB] text-4xl fa-solid fa-dolly fa-flip-horizontal"></i>
-            <p class="text-2xl font-bold">Job</p>
-            <p class="text-2xl px-1 tracking-wide">Passcard</p>
+            <i class="text-[#29E6AB] text-2xl fa-solid fa-dolly fa-flip-horizontal"></i>
+            <p class="text-xl font-bold">Job</p>
+            <p class="text-xl px-1 tracking-wide">Passcard</p>
         </div>
 
-        <div class="flex font-bold tracking-wide gap-10 text-lg">
+        <div class="flex font-bold tracking-wide gap-10 text-sm">
             <p>ABOUT US</p>
             <p>PASSCARD</p>
             <p>PROFILE</p>
         </div>
 
-        <div class="flex font-bold tracking-wide gap-6 text-lg">
-            <i class="fa-solid fa-magnifying-glass text-gray-400 text-xl pt-1"></i>
+        <div class="flex font-bold tracking-wide gap-6 text-sm">
+            <i class="fa-solid fa-magnifying-glass text-gray-400 pt-1"></i>
             <div class="relative">
-                <i class="fa-solid fa-cart-shopping text-gray-400 text-xl pt-1"></i>
+                <i class="fa-solid fa-cart-shopping text-gray-400 pt-1"></i>
 
                 <div
-                    class="absolute -top-1.5 left-3.5 bg-red-500 text-white text-sm font-bold w-4 h-4 flex items-center justify-center rounded-full">
+                    class="absolute -top-1.5 left-3 bg-red-500 text-white font-semibold w-4 h-4 flex items-center justify-center rounded-full">
                     1
                 </div>
-                
+
             </div>
             <p class="px-6 border-r border-r-gray-300">LOG IN</p>
             <p>SIGN UP</p>
         </div>
     </nav>
 
-    <div class="flex pt-22">
-        <p class="pl-30 text-3xl font-bold tracking-wide text-blue-950">My Cart</p>
-    </div>
-
-    <div class="container flex ml-30 gap-10">
-        <div class="flex flex-col">
-            <div class="mt-6 border border-gray-300 rounded-3xl w-170 text-blue-950">
-                <div class="flex items-center gap-6 px-10 py-4">
-                    <div class="border border-[#29E6AB] rounded-full p-2">
-                        <i class="text-[#29E6AB] fa-solid fa-trash"></i>
-                    </div>
-
-                    <img class="w-60 h-60" src="./cookie.png" alt="OG-pic">
-
-                    <div>
-                        <p class="font-semibold text-2xl pb-2 tracking-wide">Happy Cookie</p>
-                        <div class="flex gap-3">
-                            <div class="flex items-center gap-1">
-                                <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
-                                <div class="w-3 h-3 rounded-full bg-gray-200"></div>
-                                <div class="w-3 h-3 rounded-full bg-gray-200"></div>
-                            </div>
-                            <select class="my-1 border rounded border-gray-300 px-3 py-0.5 text-md text-gray-500 ">
-                                <option>LV. 1</option>
-                                <option>LV. 2</option>
-                                <option>LV. 3</option>
-                            </select>
-                        </div>
-                        <P class="pt-10 text-xl">THB 150</P>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-6 border border-gray-300 rounded-3xl w-170 text-blue-950">
-                <div class="flex items-center gap-6 px-10 py-4">
-                    <div class="border border-[#29E6AB] rounded-full p-2">
-                        <i class="text-[#29E6AB] fa-solid fa-trash"></i>
-                    </div>
-
-                    <img class="w-60 h-60" src="./happy-brownie.png" alt="OG-pic">
-
-                    <div>
-                        <p class="font-semibold text-2xl pb-2 tracking-wide">Happy Brownie</p>
-                        <div class="flex gap-3">
-                            <div class="flex items-center gap-1">
-                                <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
-                                <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
-                                <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
-                                <div class="w-3 h-3 rounded-full bg-gray-200"></div>
-                                <div class="w-3 h-3 rounded-full bg-gray-200"></div>
-                                <div class="w-3 h-3 rounded-full bg-gray-200"></div>
-                            </div>
-                            <select class="my-1 border rounded border-gray-300 px-3 py-0.5 text-md text-gray-500 ">
-                                <option>LV .1</option>
-                                <option>LV .2</option>
-                                <option>LV .3</option>
-                                <option>LV .4</option>
-                                <option>LV .5</option>
-                                <option>LV .6</option>
-                            </select>
-                        </div>
-                        <P class="pt-10 text-xl">THB 250</P>
-                    </div>
-                </div>
-            </div>
+    <div class="flex flex-col pl-35">
+        <div class="flex pt-22">
+            <p class="pl-30 text-3xl font-bold tracking-wide text-blue-950">My Cart</p>
         </div>
 
-        <div class="mt-6 border-1 border-gray-300 rounded-3xl w-170 h-90 flex flex-col justify-center">
-            <div class="flex flex-col gap-4 p-5">
-                <p class="font-bold text-xl text-blue-950">Order Info</p>
-                <div class="flex justify-between text-xl text-gray-500">
-                    <p>Subtotal</p>
-                    <p>THB 300</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <i class="text-xl text-[#29E6AB] pr-8 fa-solid fa-ticket"></i>
-                    <input class="border-1 border-gray-300 rounded-sm px-4 py-2 flex-1" type="text"
-                        placeholder="Promotion code">
-                    <button
-                        class="border-1 border-[#29E6AB] p-2.5 px-10 rounded-xl text-[#29E6AB] font-bold text-sm tracking-wide hover:bg-[#29E6AB] hover:text-white"
-                        type="button">APPLY</button>
-                </div>
-            </div>
-            <div class="flex flex-col gap-2 p-5 border-t-1 border-gray-300">
-                <div class="flex justify-between pb-6">
-                    <P class="text-xl text-blue-950">Total payment</P>
-                    <div>
-                        <p class="text-3xl font-semibold text-[#29E6AB]">THB 300</p>
+        <div class="container flex ml-30 gap-10">
+            <div class="flex flex-col">
+                <div class="mt-6 border border-gray-300 rounded-3xl w-170 text-blue-950">
+                    <div class="flex items-center gap-6 px-10 py-4">
+                        <div class="border border-[#29E6AB] rounded-full p-2">
+                            <i class="text-[#29E6AB] fa-solid fa-trash"></i>
+                        </div>
+
+                        <img class="w-60 h-60" src="./cookie.png" alt="OG-pic">
+
+                        <div>
+                            <p class="font-semibold text-2xl pb-2 tracking-wide">Happy Cookie</p>
+                            <div class="flex gap-3">
+                                <div class="flex items-center gap-1">
+                                    <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
+                                    <div class="w-3 h-3 rounded-full bg-gray-200"></div>
+                                    <div class="w-3 h-3 rounded-full bg-gray-200"></div>
+                                </div>
+                                <select class="my-1 border rounded border-gray-300 px-3 py-0.5 text-md text-gray-500 ">
+                                    <option>LV. 1</option>
+                                    <option>LV. 2</option>
+                                    <option>LV. 3</option>
+                                </select>
+                            </div>
+                            <P class="pt-10 text-xl">THB 150</P>
+                        </div>
                     </div>
                 </div>
-                <div class="flex justify-center">
-                    <button
-                        class="p-2 w-full rounded-2xl bg-[#29E6AB] text-blue-950 font-semibold hover:bg-blue-950 hover:text-[#29E6AB]"
-                        type="button">LOG IN TO CHECKOUT</button>
+                <div class="mt-6 border border-gray-300 rounded-3xl w-170 text-blue-950">
+                    <div class="flex items-center gap-6 px-10 py-4">
+                        <div class="border border-[#29E6AB] rounded-full p-2">
+                            <i class="text-[#29E6AB] fa-solid fa-trash"></i>
+                        </div>
+
+                        <img class="w-60 h-60" src="./happy-brownie.png" alt="OG-pic">
+
+                        <div>
+                            <p class="font-semibold text-2xl pb-2 tracking-wide">Happy Brownie</p>
+                            <div class="flex gap-3">
+                                <div class="flex items-center gap-1">
+                                    <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
+                                    <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
+                                    <div class="w-3 h-3 rounded-full bg-[#29E6AB]"></div>
+                                    <div class="w-3 h-3 rounded-full bg-gray-200"></div>
+                                    <div class="w-3 h-3 rounded-full bg-gray-200"></div>
+                                    <div class="w-3 h-3 rounded-full bg-gray-200"></div>
+                                </div>
+                                <select class="my-1 border rounded border-gray-300 px-3 py-0.5 text-md text-gray-500 ">
+                                    <option>LV .1</option>
+                                    <option>LV .2</option>
+                                    <option>LV .3</option>
+                                    <option>LV .4</option>
+                                    <option>LV .5</option>
+                                    <option>LV .6</option>
+                                </select>
+                            </div>
+                            <P class="pt-10 text-xl">THB 250</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 border-1 border-gray-300 rounded-3xl w-170 h-90 flex flex-col justify-center">
+                <div class="flex flex-col gap-4 p-5">
+                    <p class="font-bold text-xl text-blue-950">Order Info</p>
+                    <div class="flex justify-between text-xl text-gray-500">
+                        <p>Subtotal</p>
+                        <p>THB 300</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="text-xl text-[#29E6AB] pr-8 fa-solid fa-ticket"></i>
+                        <input class="border-1 border-gray-300 rounded-sm px-4 py-2 flex-1" type="text"
+                            placeholder="Promotion code">
+                        <button
+                            class="border-1 border-[#29E6AB] p-2.5 px-10 rounded-xl text-[#29E6AB] font-bold text-sm tracking-wide hover:bg-[#29E6AB] hover:text-white"
+                            type="button">APPLY</button>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 p-5 border-t-1 border-gray-300">
+                    <div class="flex justify-between pb-6">
+                        <P class="text-xl text-blue-950">Total payment</P>
+                        <div>
+                            <p class="text-3xl font-bold text-[#29E6AB]">THB 300</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <button
+                            class="p-2 w-full rounded-2xl bg-[#29E6AB] text-blue-950 font-bold hover:bg-blue-950 hover:text-[#29E6AB]"
+                            type="button">LOG IN TO CHECKOUT</button>
+                    </div>
                 </div>
             </div>
         </div>
